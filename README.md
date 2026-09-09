@@ -24,21 +24,21 @@ AI Engineer and ML researcher — MS in Electrical and Computer Engineering (Mac
 - Researched ML-based remaining-useful-life (RUL) prediction for second-life EV batteries, modeling degradation from electrochemical impedance spectroscopy (EIS) data via physics-informed feature engineering.
 - Benchmarked 6 architectures (ANN, CNN, XGBoost, CatBoost, a contrastive deep-learning ensemble) with Optuna hyperparameter tuning — 3.69% RMSE on held-out data, with the best ensemble outperforming individual baselines across all degradation regimes.
 
-**Adaptive MAPPO** — multi-agent RL algorithm that dynamically balances centralized and decentralized value estimates. Evaluated across 72 experiments: a 21% late-training performance drop vs. 71% for the baseline. *(paper and code not yet public)*
+**Adaptive MAPPO** — multi-agent RL algorithm that dynamically balances centralized and decentralized value estimates. Evaluated across 72 experiments: a 21% late-training performance drop vs. 71% for the baseline. [Paper](https://github.com/Mack-26/RLProject/blob/main/EECS567_Phase2%20(2).pdf) · [Code](https://github.com/Mack-26/RLProject/tree/main/adaptive-mappo)
 
 ## Side projects
 
-### [LearnPool](https://github.com/Mack-26/learnpool)
-AI-powered classroom Q&A platform. Students ask questions and get answers grounded in actual course materials; professors get visibility into what's being asked. Built with Postgres + pgvector for retrieval.
+### [RLProject](https://github.com/Mack-26/RLProject)
+Two RL efforts in one repo: **Adaptive MAPPO**, a multi-agent RL algorithm that dynamically balances centralized/decentralized value estimates, and a reproduction of Table 4 from *"Multistep Quasimetric Learning for Scalable Goal-Conditioned RL"* (ICLR 2026), for ECE 567. Trained on the Great Lakes HPC cluster.
 
 ### [CLEF2026](https://github.com/Mack-26/CLEF2026)
 Object detection pipeline (YOLOv8, COCO-style mAP evaluation) built for the FathomNet 2026 challenge at CLEF 2026 — includes data handling, training configs, and SLURM jobs for training on the Great Lakes HPC cluster.
 
-### [RLProject](https://github.com/Mack-26/RLProject)
-Reproduced Table 4 of *"Multistep Quasimetric Learning for Scalable Goal-Conditioned RL"* (ICLR 2026) for ECE 567, run on the Great Lakes HPC cluster.
-
 ### [Job Application Agent](https://github.com/Mack-26/application_automation)
 A human-in-the-loop system that automates job applications: AI-powered form filling, ATS detection (Greenhouse, Lever, Workday, Ashby, iCIMS), resume upload, and application tracking — with checkpoints for login/CAPTCHA so it stays compliant.
+
+### [LearnPool](https://github.com/Mack-26/learnpool)
+AI-powered classroom Q&A platform. Students ask questions and get answers grounded in actual course materials; professors get visibility into what's being asked. Built with Postgres + pgvector for retrieval.
 
 ### [HRMS App](https://github.com/Mack-26/hrms-app)
 Flutter-based HR management system with a documented clean-code architecture, built to be easy for new contributors to onboard into.
@@ -47,8 +47,8 @@ Flutter-based HR management system with a documented clean-code architecture, bu
 Full-stack web app that connects to Gmail via OAuth2 and surfaces analytics — top senders, time distribution, email volume trends.
 
 ## Education
-**University of Michigan — Ann Arbor** — MS, Electrical and Computer Engineering (Machine Learning & Signal Processing), Aug 2025 – May 2027
-**Sardar Patel Institute of Technology** — B.Tech, Electronics and Telecommunication Engineering, GPA 3.96/4.0, Aug 2019 – Jun 2023
+- **University of Michigan — Ann Arbor** — MS, Electrical and Computer Engineering (Machine Learning & Signal Processing), Aug 2025 – May 2027
+- **Sardar Patel Institute of Technology** — B.Tech, Electronics and Telecommunication Engineering, GPA 3.96/4.0, Aug 2019 – Jun 2023
 
 ## Tools & tech
 <img src="https://skillicons.dev/icons?i=py,java,cpp,js,ts,react,gcp,azure,docker,kubernetes,linux,postgres,mongodb,pytorch,tensorflow,opencv,git" alt="Skill icons" />

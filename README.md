@@ -65,4 +65,4 @@ ML/AI: Reinforcement Learning · Hugging Face · vLLM · OpenAI SDK · LangGraph
 ## Contact
 aromanan@umich.edu · [LinkedIn](https://www.linkedin.com/in/mananarora2611/)
 
-Open to opportunities — [resume](#) available on request or via LinkedIn above.
+Open to opportunities — [resume](https://drive.google.com/file/d/1wQ-PCU5ob8x-5H9jFWtKGHQoEf3ytWd_/view?usp=drive_link) available on request or via LinkedIn above.

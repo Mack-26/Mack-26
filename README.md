@@ -5,24 +5,10 @@ AI Engineer and ML researcher — MS in Electrical and Computer Engineering (Mac
 ## Experience
 
 **AI Engineering Intern, Honeywell Technologies** — May 2026 – Aug 2026 (4 mos)
-- Built a multi-agent framework (LangGraph) that constructs structured knowledge graphs from enterprise metadata across 3 enterprise catalogs (1,000+ schemas, ~10,000 tables) — the reasoning foundation for Honeywell's Cognition Edge AI platform.
-- Shipped the platform's Context Building layer, quantizing and exporting Qwen models via ONNX for real-time on-device inference across 30M+ assets in 5 continents.
-- Won 1st place among 100+ engineers (US/EU) at the Honeywell Global Hackathon for a LangChain multi-agent framework that diagnoses ERP-linked failures and alerts field engineers.
-
-**AI Engineer, AuxoAI** — Aug 2023 – Jun 2025 (1 yr 11 mos)
-- Built retrieval and LLM tool-execution capabilities for Damia, AuxoAI's enterprise AI platform — AI analysis over 10,000+ page document corpora at 96% accuracy, serving 3M monthly active users.
-- Shipped a natural-language-to-SQL platform serving 1M+ users across 45 enterprises, building distributed Lambda functions that cut time-to-output to under 10 seconds.
-- Worked directly with product managers, domain experts, and customers to translate business requirements into production AI solutions for enterprise manufacturing workflows.
-
-## Research
 
 **Researcher, Jason Corso Lab — University of Michigan** — Jan 2026 – present (9 mos)
-- Fine-tuning Qwen and InternVL multimodal foundation models at test time using GRPO-based reinforcement learning with frequency/diversity reward signals — an 80% increase in model accuracy.
-- Built multimodal evaluation infrastructure (30+ scripts, multi-GPU sharding) benchmarking YOLO-family detectors and VLMs on MS-COCO.
 
 **Research Assistant, Ziyou Song Lab — University of Michigan** — Oct 2025 – Jan 2026 (4 mos)
-- Researched ML-based remaining-useful-life (RUL) prediction for second-life EV batteries, modeling degradation from electrochemical impedance spectroscopy (EIS) data via physics-informed feature engineering.
-- Benchmarked 6 architectures (ANN, CNN, XGBoost, CatBoost, a contrastive deep-learning ensemble) with Optuna hyperparameter tuning — 3.69% RMSE on held-out data, with the best ensemble outperforming individual baselines across all degradation regimes.
 
 **Adaptive MAPPO** — multi-agent RL algorithm that dynamically balances centralized and decentralized value estimates. Evaluated across 72 experiments: a 21% late-training performance drop vs. 71% for the baseline. [Paper](https://github.com/Mack-26/RLProject/blob/main/EECS567_Phase2%20(2).pdf) · [Code](https://github.com/Mack-26/RLProject/tree/main/adaptive-mappo)
 
